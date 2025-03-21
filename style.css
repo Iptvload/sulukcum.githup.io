@@ -1,0 +1,107 @@
+body.dark-mode {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-info span {
+    margin: 0 10px;
+}
+
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.vs-image {
+    width: 50px;
+    margin: 0 20px;
+}
+
+#start-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Öğeleri dikeyde sırala */
+    margin-bottom: 20px;
+}
+
+.user-upload {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.upload-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.upload-row input {
+    margin-right: 10px;
+}
+
+.check-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px; /* Butonu aşağı kaydır */
+}
+
+.bet-container {
+    margin: 10px 0;
+}
+
+#bet-amount {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+#win-amount {
+    margin-top: 10px;
+}

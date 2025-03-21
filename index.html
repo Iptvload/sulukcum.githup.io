@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SÜLÜK PAZARI</title>
+    <title>Varmısın İddaaya?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    SİTEME HOŞGELDİNİZ
+<body class="dark-mode">
+    <header>
+        <div id="user-info">
+            <span id="user-id">Kullanıcı ID: 12345</span>
+            <span id="balance">Bakiye: 1000 TL</span>
+        </div>
+    </header>
+    <main>
+        <div class="user-container">
+            <div class="user-profile">
+              <span>Kullanıcı 1 ID: 12345</span>
+                <img src="https://tasarimfikir.com/wp-content/uploads/profil-fotografi-tasarimi-min.jpg" alt="Kullanıcı 1">
+                
+            </div>
+            <img src="https://www.pngall.com/wp-content/uploads/5/Combat-Versus-PNG-Images.png" alt="VS" class="vs-image">
+            <div class="user-profile">
+                <img src="https://tasarimfikir.com/wp-content/uploads/profil-fotografi-tasarimi-min.jpg" alt="Kullanıcı 2">
+                <span>Kullanıcı 2 ID: 55621</span>
+            </div>
+        </div>
+        <div class="bet-container">
+            <label for="bet-amount">İddaa Tutarı:</label>
+            <select id="bet-amount">
+                <option value="50">50 TL</option>
+                <option value="100">100 TL</option>
+                <option value="150">150 TL</option>
+                <option value="200">200 TL</option>
+                <option value="500">500 TL</option>
+                <option value="1000">1000 TL</option>
+            </select>
+        </div>
+        <div id="win-amount">Kazanılacak Tutar: 0 TL</div>
+        <h1 class="title">İYİ OLAN KAZANSIN</h1>
+        <button id="start-button">Mücadeleye Başla</button>
+        <div id="countdown">30:00</div>
+    </main>
+    <footer>
+        <p>Mücadele Sonunda Sonuç Görsellerini Yükleyin! İnceleme Sonucunda Kazanç Kazanan Oyuncunun Bakiyesine Yansıyacaktır.</p>
+        <div class="upload-container">
+            <div class="user-upload">
+                <h3>Oyuncu 1 Görselleri</h3>
+                <div class="upload-row">
+                    <input type="file" id="player1-image1" accept="image/*">
+                    <input type="file" id="player1-image2" accept="image/*">
+                    <input type="file" id="player1-image3" accept="image/*">
+                </div>
+            </div>
+            <button class="check-button" data-link="https://www.r10.net/html-css-xml/3665211-button-nu-nasil-link-haline-getirebilirim.html">Kontrol Et</button>
+        </div>
+        <div class="upload-container">
+            <div class="user-upload">
+                <h3>Oyuncu 2 Görselleri</h3>
+                <div class="upload-row">
+                    <input type="file" id="player2-image1" accept="image/*">
+                    <input type="file" id="player2-image2" accept="image/*">
+                    <input type="file" id="player2-image3" accept="image/*">
+                </div>
+            </div>
+            <button class="check-button" data-link="https://www.r10.net/html-css-xml/3665211-button-nu-nasil-link-haline-getirebilirim.html">Kontrol Et</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
